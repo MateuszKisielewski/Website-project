@@ -1,0 +1,4 @@
+# All unwanted files
+.DS_Store
+*.exe
+.idea
