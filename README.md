@@ -1,2 +1,2 @@
-# Website-project
-PaletyMix website
+# Author
+Mateusz Kisielewski
