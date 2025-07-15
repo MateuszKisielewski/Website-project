@@ -200,17 +200,13 @@ footer {
 
 /* Tablety (768px i mniej) */
 @media screen and (max-width: 768px) {
-    main {
+    main, footer {
         padding: 0 3%;
     }
     
     .header_layout {
         padding: 0 3%;
         margin-bottom: 6px;
-    }
-    
-    footer {
-        padding: 0 3%;
     }
     
     body {
@@ -244,7 +240,7 @@ footer {
         margin-bottom: 6px;
     }
     
-    .brandsandutils {
+    .brandsandutils, iframe, .footer_yellow {
         margin-bottom: 6px;
     }
     
@@ -270,29 +266,17 @@ footer {
         text-align: center;
         margin-bottom: 6px;
     }
-    
-    iframe {
-        margin-bottom: 6px;
-    }
-    
-    .footer_yellow {
-        margin-bottom: 6px;
-    }
 }
 
 /* Smartfony (480px i mniej) */
 @media screen and (max-width: 480px) {
-    main {
+    main, footer {
         padding: 0 2%;
     }
     
     .header_layout {
         padding: 0 2%;
         margin-bottom: 4px;
-    }
-    
-    footer {
-        padding: 0 2%;
     }
     
     body {
@@ -305,17 +289,13 @@ footer {
         line-height: 1.2;
     }
     
-    .description {
+    .description, .brandsandutils, .main_black_layout,  iframe {
         margin-bottom: 4px;
     }
     
     .container {
         height: 25vh;
         min-height: 200px;
-        margin-bottom: 4px;
-    }
-    
-    .brandsandutils {
         margin-bottom: 4px;
     }
     
@@ -346,14 +326,6 @@ footer {
         font-size: 12px;
     }
     
-    .main_black_layout {
-        margin-bottom: 4px;
-    }
-    
-    iframe {
-        margin-bottom: 4px;
-    }
-    
     .footer_yellow {
         padding: 10px;
         word-spacing: 10px;
@@ -377,7 +349,7 @@ footer {
         font-size: 12px;
     }
     
-    .header_layout {
+    .header_layout, .description, .brandsandutils, .container, .co_oferuje, .main_black_layout, iframe, .footer_yellow {
         margin-bottom: 3px;
     }
     
@@ -387,32 +359,12 @@ footer {
         line-height: 1.1;
     }
     
-    .description {
-        margin-bottom: 3px;
-    }
-    
-    .brandsandutils {
-        margin-bottom: 3px;
-    }
-    
-    .container {
-        margin-bottom: 3px;
-    }
-    
-    .co_oferuje {
-        margin-bottom: 3px;
-    }
-    
     .co_oferuje h3 {
         font-size: 0.9em;
     }
     
     .main_black {
         font-size: 11px;
-    }
-    
-    .main_black_layout {
-        margin-bottom: 3px;
     }
 
     .galeria {
@@ -425,11 +377,4 @@ footer {
         width: 95%;
     }
     
-    iframe {
-        margin-bottom: 3px;
-    }
-    
-    .footer_yellow {
-        margin-bottom: 3px;
-    }
 }
